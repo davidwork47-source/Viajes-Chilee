@@ -1,0 +1,51 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    background-color: #000;
+    color: white;
+}
+
+.navbar{
+    background: transparent;
+}
+
+.nav-link{
+    color: white !important;
+}
+
+.nav-link:hover{
+    color: #0dcaf0 !important;
+}
+.carousel-item img{
+    height: 100vh;
+    object-fit: cover;
+}
+/* Títulos */
+h2{
+    font-weight: 700;
+}
+
+/* Tarjetas */
+.card img{
+    height: 200px;
+    object-fit: cover;
+}
+
+.card{
+    border: none;
+    transition: transform .3s;
+}
+
+.card:hover{
+    transform: scale(1.05);
+}
+html {
+    scroll-behavior: smooth;
+}
+
+section {
+    scroll-margin-top: 70px;
+}
+
+.navbar {
+    transition: background-color .4s ease;
+}
