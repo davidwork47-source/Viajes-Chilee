@@ -48,3 +48,4 @@ window.addEventListener("scroll", function () {
     }
 
 });
+// Funciones JavaScript
